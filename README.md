@@ -33,7 +33,7 @@ Course example at http://elgin.cc/t/sun-19th-oct-14-spey-moor/77
 
 ```sh
 
-    cd /var/docker
+    cd /var/discourse
     ./launcher rebuild app
     ./launcher restart app
 
@@ -43,7 +43,7 @@ Course example at http://elgin.cc/t/sun-19th-oct-14-spey-moor/77
 
 ```sh
 
-    ./launcher ssh app
+    ./launcher enter app
     cd /var/www/discourse
     rake posts:refresh_oneboxes
 
