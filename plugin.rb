@@ -3,12 +3,12 @@
 # version: 1.0
 # authors: Ewan McDougall
 
-Onebox = Onebox
+require 'onebox'
 
 module Onebox
   module Engine
     class GarminConnectOnebox
-      include Engine
+      include Onebox::Engine
       REGEX = /^https?:\/\/connect\.garmin\.com(?::80)?\/(?:course|modern\/(?:course|activity))\/(?:embed\/)?([0-9]*)/
       matches_regexp REGEX
 
