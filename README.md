@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/mrloop/garmin_connect_onebox.svg?branch=master)](https://travis-ci.org/mrloop/garmin_connect_onebox)
-
 # Garmin Connect Onebox
+
+[![CI](https://github.com/mrloop/garmin_connect_onebox/actions/workflows/ci.yml/badge.svg)](https://github.com/mrloop/garmin_connect_onebox/actions/workflows/ci.yml)
+
 
 [Garmin Connect](https://connect.garmin.com) [Onebox](https://github.com/discourse/onebox) for embedding garmin courses and activities in [Discourse](discourse.org)
 
