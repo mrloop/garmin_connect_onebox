@@ -1,7 +1,13 @@
 # name: garmin_connect_onebox
 # about: Garmin connect Onebox for embedding garmin courses and activities
-# version: 1.0
+# version: 1.0.1
 # authors: Ewan McDougall
+
+begin
+  require_relative "../../lib/onebox"
+rescue LoadError
+  # running in test
+end
 
 Onebox = Onebox
 
