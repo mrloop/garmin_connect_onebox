@@ -15,7 +15,16 @@ Course example at http://elgin.cc/t/sun-19th-oct-14-spey-moor/77
  - http(s)://connect.garmin.com/modern/activity/ID
  - http(s)://connect.garmin.com/modern/embed/ID
 
+### Allowed iframes
+
+Update the 'allowed iframes' in the security settings of your site to include 'https://connect.garmin.com/'.
+
 ## Installation
+
+```sh
+cd /var/discourse
+nano containers/app.yml
+```
 
 ```yml
 
